@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === 'ping') {
-    message.reply('pong');
+  if (message.content === 'NCG你好') {
+    message.reply('你好我是NCG機器人');
   }
 });
 
