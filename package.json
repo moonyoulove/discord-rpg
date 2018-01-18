@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
   "engines": {
     "node": "8.9.4",
     "npm": "5.6.0"
