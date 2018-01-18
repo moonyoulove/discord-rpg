@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === 'NCG你好') {
-    message.reply('你好我是NCG機器人');
+  if (message.content === 'NCG') {
+    message.reply('NCG');
   }
 });
 
