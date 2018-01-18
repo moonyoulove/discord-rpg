@@ -20,7 +20,7 @@ client.login('NDAzMjQwNDg2ODk2MTQwMjk4.DUEdww.KYLRCZzDvdxMJs8ZgygReG-r1ow');
 
 
 
-/* const express = require('express');
+const express = require('express');
 const app = express();
 
 // set the port of our application
@@ -46,4 +46,4 @@ app.listen(port, () => {
 // pings server every 15 minutes to prevent dynos from sleeping
 setInterval(() => {
   http.get('http://discord-rpg.herokuapp.com');
-}, 900000); */
+}, 900000);
