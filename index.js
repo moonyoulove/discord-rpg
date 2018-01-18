@@ -6,8 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if ((message.content) === '有人嗎?') {
-    message.reply('你好');
+  switch(message.content) {
+      case '有人嗎?':
+        message.reply('你好');
+        break;
+      case 'anyone?':
+        message.reply('hello');
+        break;
   }
 });
 
