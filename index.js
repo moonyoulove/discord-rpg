@@ -6,8 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  console.log(message.content);
-  if (message.content.toString() === '有人嗎?') {
+  if (message.content === '有人嗎?') {
     message.reply('你好');
   }
 });
