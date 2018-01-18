@@ -1,11 +1,10 @@
 {
-  "name": "discord.js-heroku",
+  "name": "discord-rpg",
   "version": "1.0.0",
-  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "description": "nope",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "8.9.4",
@@ -13,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/synicalsyntax/discord.js-heroku.git"
+    "url": "git+https://github.com/moonyoulove/discord-rpg.git"
   },
   "keywords": [
     "heroku",
@@ -22,9 +21,9 @@
   "author": "synicalsyntax",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/synicalsyntax/discord.js-heroku/issues"
+    "url": "https://github.com/moonyoulove/discord-rpg/issues"
   },
-  "homepage": "https://github.com/synicalsyntax/discord.js-heroku#readme",
+  "homepage": "https://github.com/moonyoulove/discord-rpg#readme",
   "dependencies": {
     "discord.js": "^11.3.0",
     "ejs": "^2.5.7",
